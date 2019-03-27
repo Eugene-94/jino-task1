@@ -1,0 +1,39 @@
+.page-footer {
+  padding-top: 25px;
+  padding-bottom: 50px;
+
+  background-image: url('../img/background2.jpg');
+  outline: 1px solid black;
+}
+
+.page-footer__title {
+  margin-top: 60px;
+
+  color: #cccccc;
+  font-size: 35px;
+  text-align: center;
+}
+
+.page-footer__advantage {
+  margin-top: 90px;
+  padding: 0 8.5%;
+
+  font-size: 50px;
+  text-align: center;
+}
+
+.page-footer__promo {
+  display: flex;
+  padding: 30px 40px;
+  margin-top: 51px;
+
+  font-size: 22px;
+
+  background-color: #df4a5e;
+}
+
+.page-footer__law-info {
+  margin-top: 45px;
+
+  font-size: 13px;
+}

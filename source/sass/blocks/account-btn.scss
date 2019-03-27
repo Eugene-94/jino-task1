@@ -1,0 +1,25 @@
+.account-btn {
+  display: block;
+  width: 265px;
+  height: 54px;
+  margin: 0 auto;
+
+  color: #ffffff;
+  line-height: 54px;
+  text-align: center;
+
+  background-color: #77b53c;
+  border-radius: 5px;
+
+  &--header {
+    margin-top: 80px;
+  }
+
+  &--page-content {
+    margin-top: 45px;
+  }
+
+  &--footer {
+    margin-top: 40px;
+  }
+}

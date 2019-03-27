@@ -1,0 +1,41 @@
+.features {
+
+}
+
+.features__title {
+  margin-top: 60px;
+
+  font-size: 35px;
+  text-align: center;
+}
+
+.features__nav-tabs {
+  display: flex;
+  justify-content: space-around;
+
+  list-style: none;
+}
+
+.features__nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features__tab-pane {
+  display: none;
+
+  &.active {
+    box-sizing: border-box;
+
+    display: block;
+    padding: 27px 43px;
+    border: 1px solid #afafb0;
+
+    font-size: 16px;
+    color: #333333;
+
+    background-color: #f7f7f7;
+    border-radius: 10px;
+  }
+}

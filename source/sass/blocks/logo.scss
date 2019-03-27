@@ -1,0 +1,38 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  &--page-content {
+    margin-top: 20px;
+  }
+}
+
+.logo__img {
+  margin-right: 10px;
+
+  &--header {
+    fill: #ffffff;
+  }
+
+  &--page-content {
+    fill: #b22725;
+  }
+
+  &--footer {
+    fill: #ffffff;
+  }
+}
+
+.logo__text {
+  &--header {
+    color: #ffffff;
+  }
+
+  &--page-content {
+    color: #333333;
+  }
+
+  &--footer {
+    color: #ffffff;
+  }
+}
