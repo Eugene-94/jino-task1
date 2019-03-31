@@ -1,5 +1,16 @@
 .page-content {
-  padding-bottom: 85px;
+  padding-bottom: 79px;
 
   background-color: #ffffff;
+}
+
+.page-content__wrapper {
+  padding-top: 22px;
+}
+
+@media (max-width: 859px) {
+  .page-content__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

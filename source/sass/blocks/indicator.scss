@@ -1,0 +1,50 @@
+.indicator {
+  position: fixed;
+  right: 40px;
+  top: 50vh;
+  transform: rotateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+
+.indicator__item {
+  box-sizing: border-box;
+
+  position: relative;
+
+  width: 14px;
+  height: 14px;
+  border: 1px solid #000000;
+
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &.active::before {
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+    width: 10px;
+    height: 10px;
+
+    background-color: #333333;
+    border-radius: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 859px) {
+  .indicator {
+    display: none;
+  }
+}

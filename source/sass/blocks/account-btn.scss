@@ -4,6 +4,9 @@
   height: 54px;
   margin: 0 auto;
 
+  font-family: "PTSans CaptionBold", Helvetica;
+  font-size: 24px;
+  letter-spacing: -0.045em;
   color: #ffffff;
   line-height: 54px;
   text-align: center;
@@ -21,5 +24,18 @@
 
   &--footer {
     margin-top: 40px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: darken(#77b53c, 10);
+  }
+}
+
+@media (max-width: 859px) {
+  .account-btn {
+    &--header {
+      margin-top: 120px;
+    }
   }
 }

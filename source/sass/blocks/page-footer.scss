@@ -7,33 +7,101 @@
 }
 
 .page-footer__title {
-  margin-top: 60px;
+  margin-top: 50px;
 
-  color: #cccccc;
-  font-size: 35px;
+  font-family: "PTSans CaptionBold", Helvetica;
+  color: #ffffff;
+  font-size: 32px;
   text-align: center;
+  letter-spacing: -0.025em;
 }
 
 .page-footer__advantage {
-  margin-top: 90px;
+  margin-top: 87px;
   padding: 0 8.5%;
 
-  font-size: 50px;
+  font-family: "PTSans CaptionBold", Helvetica;
+  color: #ffffff;
+  font-size: 45px;
   text-align: center;
+  letter-spacing: -0.01em;
 }
 
 .page-footer__promo {
   display: flex;
-  padding: 30px 40px;
-  margin-top: 51px;
+  align-items: center;
+  padding: 7px 40px;
+  margin-top: 56px;
 
+  font-family: "PTSans";
+  font-weight: 400;
   font-size: 22px;
+  color: #ffffff;
 
   background-color: #df4a5e;
+}
+
+.page-footer__adv {
+  width: 81%;
+}
+
+.page-footer__plus {
+  position: relative;
+
+  flex-grow: 1;
+  border-left: 1px solid #e56e7e;
+  margin: 0;
+
+  font-family: "PTSans CaptionBold", Helvetica;
+  font-size: 50px;
+  text-align: center;
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: 19px;
+    right: -12px;
+
+    display: block;
+    width: 30px;
+    height: 30px;
+
+    background-image: url('../img/plus-normal.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.page-footer__link {
+  text-decoration: underline;
 }
 
 .page-footer__law-info {
   margin-top: 45px;
 
+  color: #ffffff;
   font-size: 13px;
+}
+
+@media (max-width: 859px) {
+  .page-footer__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .page-footer__advantage {
+    font-size: 32px;
+  }
+  .page-footer__adv {
+    width: 100%;
+  }
+  .page-footer__plus {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .page-footer__advantage {
+    font-size: 24px;
+  }
 }

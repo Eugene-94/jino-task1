@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "PTSans CaptionBold";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("PTSans CaptionBold"),
+    url("../fonts/PTSans-Caption-Web-Bold.woff2") format("woff2"),
+    url("../fonts/PTSans-Caption-Web-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("PTSans CaptionBold"),
+    url("../fonts/PTSans-Web-Regular.woff2") format("woff2"),
+    url("../fonts/PTSans-Web-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("PTSans CaptionBold"),
+    url("../fonts/PTSans-Web-Bold.woff2") format("woff2"),
+    url("../fonts/PTSans-Web-Bold.woff") format("woff");
+}
+
 a {
   color: inherit;
   text-decoration: none;

@@ -1,10 +1,6 @@
 .logo {
   display: flex;
   align-items: center;
-
-  &--page-content {
-    margin-top: 20px;
-  }
 }
 
 .logo__img {
@@ -24,6 +20,9 @@
 }
 
 .logo__text {
+  font-family: "PTSans", Helvetica;
+  font-size: 16px;
+
   &--header {
     color: #ffffff;
   }
